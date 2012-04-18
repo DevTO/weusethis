@@ -2,31 +2,31 @@
 <html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>{{page.title}}</title>
-		<link href="{% if page.person %}http://usesthis.com{% endif %}/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
-		<link href="{% if page.person %}http://usesthis.com{% endif %}/feed/" rel="alternate" title="Atom feed" type="application/atom+xml">
+		<link href="{% if page.person %}../{% endif %}/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="{% if page.person %}../{% endif %}/feed/" rel="alternate" title="Atom feed" type="application/atom+xml">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, minimum-scale=0.6, maximum-scale=1.0" />
 	</head>
 	<body>
 		<header>
-			<h1><a href="/"
+    <h1><a href="{% if page.person %}../{% else %}./{% endif %}"
           title="The most recent interviews.">We Use This</a></h1>
 			<p id="tagline">What do people in toronto use to get stuff done?</p>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="{% if page.person %}http://usesthis.com{% endif %}/interviews/" title="All the other interviews.">Interviews</a></li>
-				<li><a href="{% if page.person %}http://usesthis.com{% endif %}/about/" title="A little more info about the site.">About</a></li>
-				<li><a href="{% if page.person %}http://usesthis.com{% endif %}/community/" title="Other interviews by people like you.">Community</a></li>
-				<li><a href="{% if page.person %}http://usesthis.com{% endif %}/feed/" title="The site's Atom feed.">Feed</a></li>
-				<li><a href="http://twitter.com/usesthis/" title="The site's Twitter account.">Twitter</a></li>
+				<li><a href="{% if page.person %}../{% endif %}/interviews/" title="All the other interviews.">Interviews</a></li>
+				<li><a href="{% if page.person %}../{% endif %}/about/" title="A little more info about the site.">About</a></li>
+				<li><a href="{% if page.person %}../{% endif %}/feed/" title="The site's Atom feed.">Feed</a></li>
+				<li><a href="http://twitter.com/devto/" title="The site's Twitter account.">Twitter</a></li>
 			</ul>
 		</nav>
 		<section id="contents">
 		{{content}}
 		</section>
 		<footer>
-			<p>This is a <a href="http://waferbaby.com/" title="Some website.">waferbaby</a> snafu. Unless otherwise noted, everything is available via the <a href="http://creativecommons.org/licenses/by-sa/2.5/au/" title="A Creative Commons license.">Attribution-Share Alike</a> license.</p>
+    <p>This is a <a href="http://www.devto.ca/" title="DevTO">DevTO</a> site, inspired by a <a href="http://usesthis.com/" title="usesthis.">waferbaby</a> snafu.</p>
+    <p> Unless otherwise noted, everything is available via the <a href="http://creativecommons.org/licenses/by-sa/2.5/au/" title="A Creative Commons license.">Attribution-Share Alike</a> license.</p>
 	  	</footer>
 	</body>
 </html>
