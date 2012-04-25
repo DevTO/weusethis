@@ -8,8 +8,70 @@ categories: []
 ---
 ### Who are you, and what do you do?
 
+My name is Chris Jones.  I currently am and for the last 15 years of my life I have been building software on the internet (websites, apps, etc).
+
+When I'm not writing code, I help organize a monthly developer meetup in Toronto called #DevTO.
+
+I am keenly interested in music, politics, science fiction, philosophy and conspiracy theories.
+
 ### What hardware are you using?
 
+As I mentioned above I've been online for the last 15 years of my life, and before that a few years were spent offline playing that strange 
+skiing game in windows 3.1.  For that entire time I have been a windows user, from the aforementioned Windows 3.1 all the way up to windows 7 (winxp for life).
+
+That was all great and fine until about a 6 months ago when I got a 13" Macbook Pro.  Life changed.
+
+Opinions about this stuff are as sacred as religion and baseball, so keep in mind, what I'm about to say is my opinion and not some statement of fact.
+
+After using a Mac for 6 months, I can say without hesitation that I will never willingly work on a Microsot Windows based computer again in my life.  There is simply
+no comparison in my mind.  All those issue's of choice and options and other crap that people think they care about (and more often than not for some inexplicable reason
+actually do care about) in my mind don't apply to this type of decision.
+
+From the perspective of a developer, I don't want crashing, I don't want blue screens and I don't want to wait.  For some reason this doesn't happen on my mac.
+
 ### And what software?
+
+I'll break this out into 2 lists.  Pc and Mac.
+
+#### PC
+
+My primary development stack is entirely MS based (weird right?).  I do mostly asp.net mvc work in c#
+
+Chrome - All things being equal, the best browser since the beginning of the internet?  I dunno, but I love it.  I keep it super
+light in terms of extensions as well.  The only one I can't live without is vimium (vim like keybindings for chrome)
+
+gvim - for editing text (honestly, I'll sometimes switch out of visual studio to gvim for everything but c# and compiling)
+
+mysysgit (hosted in console2) - The best commanline replacement for windows.  Gives you everything you need for the git command
+line as well.
+
+Visual Studio 2010
+
+
+#### Mac
+
+VMWare Fusion - In unity mode. Since the majority of my dev work is MS based, I do have to have some vm's around.  I run them in
+unity mode so I don't have to deal with the windows UI and quite frankly it's pretty damn fast (actually running windows 7 in
+vmware fusion on my mac is faster than running windows xp on a dell box with 3gb of ram). 
+
+Chrome - same stuff as above.
+
+MacVim - I didn't really dive into why I love vim so much under the windows stuff, but I will here for sure.  I've tried picking
+up vim quite literally for years i've always failed at, but I've never quite lost the urge to learn it.  About a year ago after 
+reading lot's of other people explain how you've just got to get past that first hump (about 2 weeks) and then your experience with
+vim turns from a frustrating mess into a glorious expanse of productivity (that was a lie) but what it did do is it made me remember
+that I am learning this thing and that I should expect to be frustrated for a while.  I'm still frustrated but drop me into notepad
+and I will look at you very very strangly my friend.
+
+Oh, if you are using vim on the mac, install Janus by Carl Huda, it makes life great.
+
+Terminal - How come windows doesn't have a comparable terminal app built in?  And please don't try and explain to me that the 
+command prompt is that.  It's not.  Honestly, probably one of the reasons I love using the Mac so much is that I am very much a
+linux fan and lot's of OS X reminds me of that.
+
+Alfred - I have been a launcher nerd for YEARS man.  It all started out with this thing made by Jeff Raskin's (yes, apple's 
+Jeff Raskin) son, called Enso.  It's like a lot of other application launchers but this is the one that taught me that all launchers
+should be opened by your pinky hitting the caps lock key.  For me this is a deal breaker.  If I can't initiate a launcher with my 
+pinky (good lord no command-space crap please!) then the deal is off 
 
 ### What would be your dream setup?
